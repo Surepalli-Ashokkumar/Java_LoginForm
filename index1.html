@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+       <h1>Add Student details</h1>
+     
+       
+    
+       <fieldset>
+		      <legend>Sign</legend>
+		      <form action="saveservlet" method="post"">
+		      <table border="2" align="center">
+				  <tr><td>NAME</td><td><input type="text" placeholder="Enter your name" name="name"></td></tr>
+				  <tr><td>Password</td><td><input type="password" placeholder="Enter your Password" name="password"></td></tr>
+				  <tr><td>Email</td><td><input type="email" placeholder="Enter your Email" name="email"></td></tr>
+				  <tr><td name="course">Course</td><td>
+					      <select>
+						  <option></option>
+						  <option>Btech</option>
+						  <option>Degree</option>
+						  <option>Mbbs</option>
+						  <option>Mtech</option>
+					    </select>
+					  </td>
+    				  </tr>
+				    <tr><td><input type="submit" value="Submit"></td></tr>
+			  </table>
+		      </form>
+	   </fieldset><br>
+	   
+	   <a href="ViewServlet">View All Student Details</a>
+</body>
+</html>
